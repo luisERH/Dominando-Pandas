@@ -7,11 +7,18 @@
 </h2>
 
 
-O pandas é um framework python utilizado para <strong>manipulação<strong/> <strong>leitura<strong/> e <strong>visualização de dados<strong/>.
-    <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/01_table_dataframe.svg" width="200px" />
+<div><center>
+    O pandas é um framework python utilizado para <strong>manipulação<strong/> <strong>leitura<strong/> e <strong>visualização de dados<strong/>.
+<center/>
+    <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/01_table_dataframe.svg" width="200px" />7
+   <div/>
     
 #### Como Instalar?
+Utilizando Pype:
 ```sh
 pip install pandas
+```
+Utilizando o ambiente Anaconda:
+```sh
 conda install pandas 
 ```
