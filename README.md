@@ -7,12 +7,13 @@
 </h2>
 
 
-<div><center>
+ <p align="center">
     O pandas é um framework python utilizado para <strong>manipulação<strong/> <strong>leitura<strong/> e <strong>visualização de dados<strong/>.
+    <p/>
     <hr/>
 <center/>
-    <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/01_table_dataframe.svg" width="200px" />7
-   <div/>
+    <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/02_io_readwrite1.svg" width="200px" />
+ 
     
 #### Como Instalar?
 Utilizando Pype:
