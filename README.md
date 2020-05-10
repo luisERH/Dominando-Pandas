@@ -40,12 +40,19 @@ conda install pandas
 }
 ```
 ```sh
-[03]: df = pd.DataFrame(data) # Transformará a variável "data" do tipo dict em um dataframe
-      df
+[03]: df_estados = pd.DataFrame(data) # Transformará a variável "data" do tipo dict em um dataframe
+      df_estados
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/demonstracao.PNG"/>
 
-
+```sh
+[04]:  comidas = ["maçã","banana","abacate","uva","cereja","pêra"]
+```
+```sh
+[05]:  df_comidas = pd.DataFrame(comidas, columns=["Comidas"]) # Atribuindo nome de colunas com o parâmetro "columns"
+       comidas
+```
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/demonstracao.PNG"/>
 
 
 
