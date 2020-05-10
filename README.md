@@ -5,3 +5,6 @@
 <h2 align="center">
   🐼 Dominando Pandas
 </h2>
+
+
+O pandas é um framework python utilizado para <strong>manipulação<strong/><strong>leitura<strong/> e <strong>visualização<strong/> de dados
