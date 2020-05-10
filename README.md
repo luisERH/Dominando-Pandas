@@ -29,6 +29,22 @@ conda install pandas
 </br>
 
 ## ⌨️ Iniciando com pandas:
+```sh
+[01]: import pandas  as pd
+```
+```sh
+[02]: data = {
+'Estados': ['Pará', 'Rio de Janeiro', 'São Paulo'],
+'Capital': ['Belém', 'Rio de Janeiro', 'São Paulo'],
+'População': [143474, 12180000, 6320000]
+}
+```
+```sh
+[03]: df = pd.DataFrame(data) # Transformará a variável "data" do tipo dict em um dataframe
+      df
+```
+
+
 
 
 
