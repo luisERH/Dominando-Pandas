@@ -43,7 +43,7 @@ conda install pandas
 [03]: df_estados = pd.DataFrame(data) # Transformará a variável "data" do tipo dict em um dataframe
       df_estados
 ```
-<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/demonstracao.PNG"/>
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/demo.PNG"/>
 
 ```sh
 [04]:  comidas = ["maçã","banana","abacate","uva","cereja","pêra"]
