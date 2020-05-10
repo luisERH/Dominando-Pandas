@@ -8,7 +8,7 @@
 
 
  <p align="center">
-    O pandas é um framework python utilizado para <strong>manipulação<strong/> <strong>leitura<strong/> e <strong>visualização de dados<strong/>.
+    O pandas é um framework python utilizado para <strong>manipulação<strong/> <strong>leitura<strong/> e <strong>visualização de dados<strong/>, oferecento alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>dataframe</strong>, armazendo o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no seu arquivo/variável inicial.
  <p/><hr/>
     
 <center/>
