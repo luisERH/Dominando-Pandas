@@ -43,6 +43,8 @@ conda install pandas
 [03]: df = pd.DataFrame(data) # Transformará a variável "data" do tipo dict em um dataframe
       df
 ```
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/demonstracao.PNG"/>
+
 
 
 
