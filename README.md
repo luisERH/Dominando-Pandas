@@ -52,7 +52,7 @@ conda install pandas
 [05]:  df_comidas = pd.DataFrame(comidas, columns=["Comidas"]) # Atribuindo nome de colunas com o parâmetro "columns"
        comidas
 ```
-<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/demonstracao.PNG"/>
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/comidas.PNG"/>
 
 
 
