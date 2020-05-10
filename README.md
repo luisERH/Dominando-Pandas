@@ -9,6 +9,7 @@
 
 <div><center>
     O pandas é um framework python utilizado para <strong>manipulação<strong/> <strong>leitura<strong/> e <strong>visualização de dados<strong/>.
+    <hr/>
 <center/>
     <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/01_table_dataframe.svg" width="200px" />7
    <div/>
