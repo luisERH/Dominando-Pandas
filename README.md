@@ -15,7 +15,7 @@
     <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/02_io_readwrite1.svg"  />
  
     
-#### 💿Como Instalar?
+## 💿Como Instalar?
 </br>
 
 Utilizando Pype:
@@ -28,7 +28,7 @@ conda install pandas
 ```
 </br>
 
-#### ⌨️ Iniciando com pandas:
+## ⌨️ Iniciando com pandas:
 
 
 
