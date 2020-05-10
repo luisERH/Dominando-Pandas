@@ -15,7 +15,7 @@
     <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/02_io_readwrite1.svg"  />
  
     
-#### Como Instalar?
+#### 💿Como Instalar?
 </br>
 
 Utilizando Pype:
@@ -26,9 +26,13 @@ Utilizando o ambiente Anaconda:
 ```sh
 conda install pandas 
 ```
+</br>
+
+#### ⌨️ Iniciando com pandas:
 
 
-## 🤔 Como contribuir
+
+## 🤝 Como contribuir
 
 - Faça um fork desse repositório;
 - Cria uma branch com a sua feature: `git checkout -b minha-feature`;
