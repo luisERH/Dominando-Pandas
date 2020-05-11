@@ -1,6 +1,6 @@
 # 
 <h2 align="center">
-    <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/pandas.png" width="200px" />🐼 Dominando Pandas
+    <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/pandas.png" width="200px" /><br/><🐼 Dominando Pandas
 </h2>
 
  <p align="justify">
