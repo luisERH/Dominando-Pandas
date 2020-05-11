@@ -17,7 +17,7 @@
     
 ## 💿Como Instalar?
 
-Utilizando Pype:
+Utilizando Pypi:
 ```sh
 pip install pandas
 ```
