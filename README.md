@@ -4,7 +4,7 @@
 </h2>
 
  <p align="justify">
-    O [Pandas]("https://pandas.pydata.org/docs/") é um framework python utilizado para <Strong>manipulação</Strong> <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecendo alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>Dataframe</strong>, armazenando o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no arquivo/variável inicial.
+    O Pandas é um framework python utilizado para <Strong>manipulação</Strong> <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecendo alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>Dataframe</strong>, armazenando o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no arquivo/variável inicial.
  </p>
  <hr/>
  
