@@ -29,6 +29,9 @@ conda install pandas
 </br>
 
 ## ⌨️ Iniciando com pandas:
+
+Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáveis que estamos habituados a utilizar, como é o caso de dicionários (representação de chave e valor similares à arquivos JSON), assim como as famosas listas.
+
 ```sh
 [01]: import pandas  as pd
 ```
@@ -54,8 +57,15 @@ conda install pandas
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/comidas.PNG"/>
 
-
-
+df.sum() #Soma dos valores de um DataFrame
+df.min() #Menor valor de um DataFrame
+df.max() #Maior valor
+df.idmin() #Index do menor valor
+df.idmax() #Index do maior valor
+df.describe() #Resumo estatístico do DataFrame, com quartis, mediana, etc.
+df.mean() #Média dos valores
+df.median() #Mediana dos valores
+```
 
 ## 🤝 Como contribuir
 
