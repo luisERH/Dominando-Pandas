@@ -56,7 +56,13 @@ Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáve
        comidas
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/comidas.PNG"/>
+<hr/>
+## 🔎 Análise da sua base de dados com métodos presente no pandas:
+```sh
 
+```
+
+```sh
 df.sum() #Soma dos valores de um DataFrame
 df.min() #Menor valor de um DataFrame
 df.max() #Maior valor
