@@ -106,26 +106,25 @@ Podemos criar uma função comum que receba um valor e divida pela sua metade e 
         return quantidade/2
 ```
 ```sh
-[09]: df["População"] = df["População"].apply(dividir_população)
-      df
+[09]: df_estados["População"] = df_estados["População"].apply(dividir_população)
+      df_estados
 ```
 
 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/função.PNG"/>
 
 ```sh
-[10]: df["Estados"] = df["Estados"].apply((lambda x: x.lower()))
-      df
+[10]: df_estados["sstados"] = df_estados["Estados"].apply((lambda x: x.lower()))
+      df_estados
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/lambda.PNG"/>
 
 - Filtragem de dados com Pandas
 
 ```sh
-df[df['População'] > 200000]  #Filtrando o DataFrame para mostrar apenas valores maiores que 200000
-df.loc[0, 'Estados'] #Selecionando a primeira linha da coluna país 
+df_estados[df_estados['População'] > 200000]  #Filtrando o DataFrame para mostrar apenas valores maiores que 200000
+df_estados.loc[0, 'Estados'] #Selecionando a primeira linha da coluna país 
 ```
-
 
 
 ## 📈 Visualização de dados com Pandas:
