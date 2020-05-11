@@ -95,8 +95,17 @@ df.median() #Mediana dos valores
 df.sort_values() #Ordenando em ordem crescente
 df.sort_values(ascending=False) #Ordenando em ordem decrescente
 ```
+## 🖥️ Dataframe avançado:
+
+Além de métodos para análise, o DataFrame possui um enorme leque de funcionalidades para quem deseja manipular dados.
+
+```sh
+df.sort_values() #Ordenando em ordem crescente
+df.sort_values(ascending=False) #Ordenando em ordem decrescente
+```
 
 
+## 📈 Visualização de dados com Pandas:
 
 
 ## 🤝 Como contribuir
