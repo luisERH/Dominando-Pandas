@@ -88,8 +88,6 @@ df.count() #Contagem de dados não-nulos
 df.sum() #Soma dos valores de um DataFrame
 df.min() #Menor valor de um DataFrame
 df.max() #Maior valor
-df.idmin() #Index do menor valor
-df.idmax() #Index do maior valor
 df.mean() #Média dos valores
 df.median() #Mediana dos valores
 ```
