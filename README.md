@@ -113,7 +113,7 @@ Podemos criar uma função comum que receba um valor e divida pela sua metade e 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/função.PNG"/>
 
 ```sh
-[10]: df_estados["sstados"] = df_estados["Estados"].apply((lambda x: x.lower()))
+[10]: df_estados["Estados"] = df_estados["Estados"].apply((lambda x: x.lower()))
       df_estados
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/lambda.PNG"/>
