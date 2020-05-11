@@ -96,12 +96,16 @@ df.sort_values(ascending=False) #Ordenando em ordem decrescente
 ## 🖥️ Dataframe avançado:
 
 Além de métodos para análise, o DataFrame possui um enorme leque de funcionalidades para quem deseja manipular dados.
+Podemos criar uma função comum que receba um valor e divida pela sua metade e submeter ao nosso Dataframe
 
 ```sh
-df.sort_values() #Ordenando em ordem crescente
-df.sort_values(ascending=False) #Ordenando em ordem decrescente
+[08]: def dividir_população(quantidade):
+        return quantidade/2
 ```
-
+```sh
+[09]: df["População"] = df["População"].apply(dividir_população)
+      df
+```
 
 ## 📈 Visualização de dados com Pandas:
 
