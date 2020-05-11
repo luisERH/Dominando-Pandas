@@ -64,13 +64,15 @@ Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáve
 Em geral, quando pegamos uma base de dados nova, precisamos verificar com que tipo de dados estamos lidando, para isto, iremos analizar uma base de dados famosa sobre passageiros do Titanic extraída da plataforma [Kaggle](https://www.kaggle.com/).
 
 ```sh
-df = pd.read_csv("/content/titanic_data.csv")
-df.head(5)
+[06]: df = pd.read_csv("/content/titanic_data.csv")
+      df.head(5)
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/head.PNG"/>
+
 ```sh
-df.describe()
+[07]: df.describe()
 ```
+
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/describe.PNG"/>
 ```sh
 df.sum() #Soma dos valores de um DataFrame
