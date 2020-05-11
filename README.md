@@ -93,8 +93,8 @@ df.median() #Mediana dos valores
 ```
 - Para Ordenação dos dados: 
 ```sh
-df.sort_values() #Ordenando em ordem crescente
-df.sort_values(ascending=False) #Ordenando em ordem decrescente
+df.sort_values(by="Name") #Ordenando em ordem crescente
+df.sort_values(by="Name",ascending=False) #Ordenando em ordem decrescente
 ```
 ## 🖥️ Dataframe avançado:
 
