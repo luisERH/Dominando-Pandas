@@ -4,7 +4,7 @@
 </h2>
 
  <p align="justify">
-    O Pandas é um framework python utilizado para <Strong>manipulação</Strong> <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecendo alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>Dataframe</strong>, armazenando o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no arquivo/variável inicial.
+    O Pandas é um framework python utilizado para <Strong>manipulação</Strong>, <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecendo alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>Dataframe</strong>, armazenando o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no arquivo/variável inicial.
  </p>
  <hr/>
  
@@ -75,7 +75,7 @@ Para começar nossa análise, usaremos o método describe que retorna dados esta
 
 - Para informações básicas: 
 ```sh
-df.shape #Quantidade de linhas e colunas do DataFrame
+df.shape #Retorna uma tupla contendo a quantidade de linhas e colunas do DataFrame
 df.index #Descrição do Index
 df.columns #Colunas presentes no DataFrame
 df.count() #Contagem de dados não-nulos
@@ -87,7 +87,6 @@ df.min() #Menor valor de um DataFrame
 df.max() #Maior valor
 df.idmin() #Index do menor valor
 df.idmax() #Index do maior valor
-df.describe() #Resumo estatístico do DataFrame, com quartis, mediana, etc.
 df.mean() #Média dos valores
 df.median() #Mediana dos valores
 ```
