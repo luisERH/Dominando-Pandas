@@ -52,7 +52,7 @@ Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáve
 ```
 ```sh
 [05]:  df_comidas = pd.DataFrame(comidas, columns=["Comidas"]) # Atribuindo nome de colunas com o parâmetro "columns"
-       comidas
+       df_comidas
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/comidas.PNG"/>
 
