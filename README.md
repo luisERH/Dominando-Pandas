@@ -131,7 +131,7 @@ df.loc[0, 'Estados'] #Selecionando a primeira linha da coluna país
 [11]: df = pd.read_csv("air_quality_no2.csv") # Base de dados da qualidade do Ar
       df.plot.area(figsize=(12, 4), subplots=True)
 ```
-<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/grafico.PNG"/>
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/grafico.png"/>
 
 
 
