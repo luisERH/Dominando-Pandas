@@ -114,18 +114,25 @@ Podemos criar uma função comum que receba um valor e divida pela sua metade e 
 [10]: df["Estados"] = df["Estados"].apply((lambda x: x.lower()))
       df
 ```
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/lambda.PNG"/>
 
+- Filtragem de dados com Pandas
 
 ```sh
 df[df['População'] > 200000]  #Filtrando o DataFrame para mostrar apenas valores maiores que 200000
-```
-
-```sh
 df.loc[0, 'Estados'] #Selecionando a primeira linha da coluna país 
 ```
 
-<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/lambda.PNG"/>
+
+
 ## 📈 Visualização de dados com Pandas:
+
+```sh
+[11]: df = pd.read_csv("air_quality_no2.csv") # Base de dados da qualidade do Ar
+      df.plot.area(figsize=(12, 4), subplots=True)
+```
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/grafico.PNG"/>
+
 
 
 ## 🤝 Como contribuir
