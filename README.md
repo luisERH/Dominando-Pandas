@@ -73,7 +73,11 @@ Para começar nossa análise, usaremos o método describe que retorna dados esta
 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/describe.PNG"/>
 <ul>
-    <li>### Para análise</li>
+    <li>
+        ```sh
+        aaaa
+        ```
+    </li>
     <li></li>
     <li></li>
 </ul>
