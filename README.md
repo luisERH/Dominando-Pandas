@@ -56,12 +56,22 @@ Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáve
        comidas
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/comidas.PNG"/>
+
 <hr/>
+
 ## 🔎 Análise da sua base de dados com métodos presente no pandas:
+
+Em geral, quando pegamos uma base de dados nova, precisamos verificar com que tipo de dados estamos lidando, para isto, iremos analizar uma base de dados famosa sobre passageiros do Titanic extraída da plataforma [Kaggle](https://www.kaggle.com/).
+
 ```sh
-
+df = pd.read_csv("/content/titanic_data.csv")
+df.head(5)
 ```
-
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/head.PNG"/>
+```sh
+df.describe()
+```
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/describe.PNG"/>
 ```sh
 df.sum() #Soma dos valores de um DataFrame
 df.min() #Menor valor de um DataFrame
