@@ -12,7 +12,6 @@
  
     
 ## 💿Como Instalar?
-</br>
 
 Utilizando Pype:
 ```sh
@@ -22,7 +21,6 @@ Utilizando o ambiente Anaconda:
 ```sh
 conda install pandas 
 ```
-</br>
 
 ## ⌨️ Iniciando com pandas:
 
