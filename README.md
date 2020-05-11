@@ -56,6 +56,7 @@ Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáve
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/comidas.PNG"/>
 
 <hr/>
+
 ## 🔎 Análise de dados com Pandas:
 
 Em geral, quando pegamos uma base de dados nova, precisamos verificar com que tipo de dados estamos lidando, para isto, iremos analizar uma base de dados famosa sobre passageiros do Titanic extraída da plataforma [Kaggle](https://www.kaggle.com/).
