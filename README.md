@@ -72,15 +72,8 @@ Para começar nossa análise, usaremos o método describe que retorna dados esta
 ```
 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/describe.PNG"/>
-<ul>
-    <li>
-        ```sh
-        aaaa
-        ```
-    </li>
-    <li></li>
-    <li></li>
-</ul>
+
+- Para resumo dos dados: 
 ```sh
 df.sum() #Soma dos valores de um DataFrame
 df.min() #Menor valor de um DataFrame
@@ -91,6 +84,10 @@ df.describe() #Resumo estatístico do DataFrame, com quartis, mediana, etc.
 df.mean() #Média dos valores
 df.median() #Mediana dos valores
 ```
+- Para Ordenação dos dados: 
+- Para informações básicas: 
+
+
 
 ## 🤝 Como contribuir
 
