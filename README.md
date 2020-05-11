@@ -73,6 +73,13 @@ Para começar nossa análise, usaremos o método describe que retorna dados esta
 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/describe.PNG"/>
 
+- Para informações básicas: 
+```sh
+df.shape #Quantidade de linhas e colunas do DataFrame
+df.index #Descrição do Index
+df.columns #Colunas presentes no DataFrame
+df.count() #Contagem de dados não-nulos
+```
 - Para resumo dos dados: 
 ```sh
 df.sum() #Soma dos valores de um DataFrame
@@ -85,7 +92,11 @@ df.mean() #Média dos valores
 df.median() #Mediana dos valores
 ```
 - Para Ordenação dos dados: 
-- Para informações básicas: 
+```sh
+df.sort_values() #Ordenando em ordem crescente
+df.sort_values(ascending=False) #Ordenando em ordem decrescente
+```
+
 
 
 
