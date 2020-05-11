@@ -107,7 +107,14 @@ Podemos criar uma função comum que receba um valor e divida pela sua metade e 
       df
 ```
 
+
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/função.PNG"/>
+
+```sh
+[10]: df["Estados"] = df["Estados"].apply((lambda x: x.lower()))
+      df
+```
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/lambda.PNG"/>
 ## 📈 Visualização de dados com Pandas:
 
 
