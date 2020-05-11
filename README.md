@@ -8,11 +8,11 @@
 
 
  <p align="justify">
-    O [Pandas](https://pandas.pydata.org/docs/) é um framework python utilizado para <Strong>manipulação</Strong> <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecento alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>dataframe</strong>, armazendo o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no seu arquivo/variável inicial.
- </p><hr/>
-    
-<center/>
-    <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/02_io_readwrite1.svg"  />
+    O [Pandas](https://pandas.pydata.org/docs/) é um framework python utilizado para <Strong>manipulação</Strong> <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecendo alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>Dataframe</strong>, armazenando o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no arquivo/variável inicial.
+ </p>
+ <hr/>
+ 
+ <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/02_io_readwrite1.svg"  />
  
     
 ## 💿Como Instalar?
@@ -30,7 +30,7 @@ conda install pandas
 
 ## ⌨️ Iniciando com pandas:
 
-Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáveis que estamos habituados a utilizar, como é o caso de dicionários (representação de chave e valor similares à arquivos JSON), assim como as famosas listas.
+Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáveis que estamos habituados a utilizar, como é o caso de dicionários (representação de chave e valor similares à arquivos [JSON](https://www.json.org/json-pt.html)), assim como as famosas listas.
 
 ```sh
 [01]: import pandas  as pd
@@ -69,7 +69,7 @@ Em geral, quando pegamos uma base de dados nova, precisamos verificar com que ti
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/head.PNG"/>
 
-Para começar nossa análise, usaremos o método describe que retorna dados estísticos sobre o dataset
+Para começar nossa análise, usaremos o método describe que retorna dados estatísticos sobre o Dataframe
 
 ```sh
 [07]: df.describe()
