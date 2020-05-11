@@ -8,7 +8,7 @@
 
 
  <p align="justify">
-    O pandas é um framework python utilizado para <Strong>manipulação</Strong> <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecento alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>dataframe</strong>, armazendo o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no seu arquivo/variável inicial.
+    O [Pandas](https://pandas.pydata.org/docs/) é um framework python utilizado para <Strong>manipulação</Strong> <Strong>leitura</Strong> e <strong>visualização de dados</strong>, oferecento alto desempenho para pequenas quantidade de dados, quanto para enormes. por padrão o pandas faz a conversão de dados para um objeto chamado <strong>dataframe</strong>, armazendo o conteúdo na memória RAM da sua máquina para que os dados possam ser manipulados sem sofrer alteração no seu arquivo/variável inicial.
  </p><hr/>
     
 <center/>
@@ -64,16 +64,19 @@ Para iniciarmos, podemos criar nossos dataframes utilizando os tipos de variáve
 Em geral, quando pegamos uma base de dados nova, precisamos verificar com que tipo de dados estamos lidando, para isto, iremos analizar uma base de dados famosa sobre passageiros do Titanic extraída da plataforma [Kaggle](https://www.kaggle.com/).
 
 ```sh
-[06]: df = pd.read_csv("/content/titanic_data.csv")
-      df.head(5)
+[06]: df = pd.read_csv("titanic_data.csv") # Certifique-se que o arquivo está no mesmo diretório que seu código
+      df.head(5) # Retorna as primeiras linhas do dataframe (por padrão 5)
 ```
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/head.PNG"/>
+
+Para começar nossa análise, usaremos o método describe que retorna dados estísticos sobre o dataset
 
 ```sh
 [07]: df.describe()
 ```
 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/describe.PNG"/>
+
 ```sh
 df.sum() #Soma dos valores de um DataFrame
 df.min() #Menor valor de um DataFrame
