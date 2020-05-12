@@ -108,23 +108,27 @@ Podemos criar uma função comum que receba um valor e divida pela sua metade e 
 [09]: df_estados["População"] = df_estados["População"].apply(dividir_população)
       df_estados
 ```
-Também é possível gerar novas colunas no seu DataFrame, há diversas formas de fazer isso, sendo pela união de dois dataframes, pelo retorno de uma função, pela utilização de campos calculado... são muitas formas, veremos a seguir as principais.
+
+```sh
+[10]: df_estados["Estados"] = df_estados["Estados"].apply((lambda x: x.lower()))
+      df_estados
+```
+<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/lambda.PNG"/>
+
+
+
+Também é possível gerar novas colunas no seu DataFrame, há diversas formas de fazer isso, sendo pela união de dois dataframes, pelo retorno de uma função, pela utilização de campos calculados... são muitas formas, veremos a seguir as principais.
 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/novaCol.PNG"/>
 
 ```sh
-[10]: df_estados["Qtd_Bairros"] = [71,160,96] # Adição de uma coluna manualmente
+[11]: df_estados["Qtd_Bairros"] = [71,160,96] # Adição de uma coluna manualmente
       df_estados["Média por bairro"] = df_estados["População"] / df_estados["Qtd_Bairros"] # Utilizando um campo calculado
       df_estados
 ```
 
 <img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/campoCalculado.PNG"/>
 
-```sh
-[11]: df_estados["Estados"] = df_estados["Estados"].apply((lambda x: x.lower()))
-      df_estados
-```
-<img alt="BeTheHero" title="#delicinha" src="https://github.com/luisERH/Dominando-Pandas/blob/master/assets/lambda.PNG"/>
 
 - Filtragem de dados com Pandas
 
