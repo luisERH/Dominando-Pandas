@@ -9,7 +9,7 @@
  <hr/>
  
   <p align="justify">
-   Pandas é robusto e de fácil adaptação, com destaque na conversão de dados, facilmente lêmos um arquivo e convertemos em um <strong>Dataframe</strong>, assim como facilmente o transformamos o Dataframeem um arquivo estático para armazenamento.
+   Pandas é robusto e de fácil adaptação, com destaque na conversão de dados, facilmente lêmos um arquivo e convertemos em um <strong>Dataframe</strong>, assim como facilmente o transformamos o Dataframe em um arquivo estático para armazenamento.
  </p>
  
  <img alt="BeTheHero" title="#delicinha" src="https://pandas.pydata.org/docs/_images/02_io_readwrite1.svg"  />
